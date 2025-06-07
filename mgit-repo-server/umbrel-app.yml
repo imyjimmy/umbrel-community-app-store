@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: mgit-repo-server
+id: mgitreposerver-mgit-repo-server
 name: MGit Repository Server
 version: "1.0.0"
 category: developer-tools
