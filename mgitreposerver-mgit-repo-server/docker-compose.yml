@@ -7,9 +7,7 @@ services:
       APP_PORT: 3003
       
   web:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: imyjimmy/mgit-repo-server:latest
     restart: on-failure
     stop_grace_period: 1m
     environment:
